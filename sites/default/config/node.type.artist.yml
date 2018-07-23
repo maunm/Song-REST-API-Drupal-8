@@ -1,0 +1,18 @@
+uuid: 503ba8c7-a0d8-4d76-acb4-3bf17364a1fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Artist
+type: artist
+description: 'It represents the artist entity.e'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

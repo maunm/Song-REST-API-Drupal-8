@@ -1,0 +1,22 @@
+uuid: 38e466be-0809-405a-9152-28fda8bb8f7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - song_app
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: song_app_help
+theme: song_app
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

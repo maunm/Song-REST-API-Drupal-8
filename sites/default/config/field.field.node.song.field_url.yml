@@ -1,0 +1,19 @@
+uuid: 68f7d3a0-8545-474f-a796-99d0969bc0bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url
+    - node.type.song
+id: node.song.field_url
+field_name: field_url
+entity_type: node
+bundle: song
+label: URL
+description: 'Insert the Spotify URL.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

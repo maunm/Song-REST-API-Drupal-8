@@ -1,0 +1,22 @@
+uuid: 890bbd2d-34a7-43ac-8c3c-84bcfd9b2099
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - song_app
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: song_app_breadcrumbs
+theme: song_app
+region: highlighted
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

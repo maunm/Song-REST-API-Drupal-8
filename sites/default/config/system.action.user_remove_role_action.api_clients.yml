@@ -1,0 +1,14 @@
+uuid: 43a2dc02-9176-4d6c-a17f-33bd25d7e7dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.api_clients
+  module:
+    - user
+id: user_remove_role_action.api_clients
+label: 'Remove the API Clients role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: api_clients

@@ -1,0 +1,14 @@
+uuid: 1e1517f0-a595-4c9c-b970-abe942dbe091
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.api_clients
+  module:
+    - user
+id: user_add_role_action.api_clients
+label: 'Add the API Clients role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: api_clients

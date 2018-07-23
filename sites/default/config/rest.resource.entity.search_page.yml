@@ -1,0 +1,18 @@
+uuid: 504e42d5-2ca7-4fec-b90d-fb7981caa95d
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - serialization
+    - simple_oauth
+id: entity.search_page
+plugin_id: 'entity:search_page'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - oauth2

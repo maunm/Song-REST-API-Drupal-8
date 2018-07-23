@@ -1,0 +1,20 @@
+uuid: 055dc5a9-7cca-4b46-9d5e-038c88520e3a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - song_app
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: song_app_local_actions
+theme: song_app
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

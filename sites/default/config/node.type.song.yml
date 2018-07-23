@@ -1,0 +1,18 @@
+uuid: 49a03926-fbaf-4195-9936-3c33f0448819
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Song
+type: song
+description: 'It represents the song entity.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

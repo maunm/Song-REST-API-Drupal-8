@@ -1,0 +1,19 @@
+uuid: 2f39fa41-e412-494f-9950-cf659cfa59e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_song_id
+    - node.type.song
+id: node.song.field_song_id
+field_name: field_song_id
+entity_type: node
+bundle: song
+label: 'Song Id'
+description: 'Insert the song id.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

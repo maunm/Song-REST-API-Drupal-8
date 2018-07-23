@@ -1,0 +1,19 @@
+uuid: a32e0d08-ebb2-4a31-af77-aba6c6da1019
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_artist_id
+    - node.type.album
+id: node.album.field_artist_id
+field_name: field_artist_id
+entity_type: node
+bundle: album
+label: 'Album Id'
+description: 'Insert the album id.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

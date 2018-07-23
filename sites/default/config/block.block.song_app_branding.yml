@@ -1,0 +1,25 @@
+uuid: 9c620a18-1498-467f-8a23-a8bcb2b99347
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - song_app
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: song_app_branding
+theme: song_app
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

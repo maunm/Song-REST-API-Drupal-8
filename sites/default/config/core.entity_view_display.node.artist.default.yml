@@ -1,0 +1,37 @@
+uuid: b1ee3b99-7e51-4250-a4f6-59f289d5d542
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.artist.body
+    - field.field.node.artist.field_artist__id
+    - node.type.artist
+  module:
+    - text
+    - user
+id: node.artist.default
+targetEntityType: node
+bundle: artist
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_artist__id:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

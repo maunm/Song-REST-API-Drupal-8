@@ -1,0 +1,37 @@
+uuid: d6712aed-14ba-48d8-a789-50548787f3cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.album.body
+    - field.field.node.album.field_artist_id
+    - node.type.album
+  module:
+    - text
+    - user
+id: node.album.default
+targetEntityType: node
+bundle: album
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_artist_id:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 17b30001-7845-4867-bab2-239619667ea9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - song_app
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: song_app_messages
+theme: song_app
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

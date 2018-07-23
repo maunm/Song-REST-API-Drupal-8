@@ -1,0 +1,14 @@
+uuid: 280707b3-f39f-43af-bfdb-09097d239447
+name: 'Spotify Song App'
+mail: mau18nm@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
